@@ -1,0 +1,21 @@
+# Context Files
+IMPLEMENTATION_PLAN.md
+# Node/Frontend
+node_modules/
+.next/
+out/
+
+# Go/Backend
+backend/bin/
+backend/*.exe
+backend/*.exe~
+backend/*.dll
+backend/*.so
+backend/*.dylib
+backend/*.test
+backend/*.out
+
+# Rust/Anchor
+contracts/target/
+contracts/**/*.rs.bk
+contracts/.anchor/
