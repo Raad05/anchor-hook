@@ -73,7 +73,7 @@ func (l *Listener) Subscribe(programID string) error {
 		ID:      1,
 		Method:  "logsSubscribe",
 		Params: []interface{}{
-			map[string]string{"mentions": programID},
+			map[string]interface{}{"mentions": []string{programID}},
 			map[string]string{"commitment": "confirmed"},
 		},
 	}

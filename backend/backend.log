@@ -1,0 +1,12 @@
+nohup: ignoring input
+2026/04/28 18:03:54 [main] starting anchor-hook
+2026/04/28 18:03:54 [main] program  = DMSM65cnaykxbmPLdaam9QFeJ1CuuEDbMpibNHm45ZbD
+2026/04/28 18:03:54 [main] ws URL   = ws://127.0.0.1:8900
+2026/04/28 18:03:54 [main] api addr = :8080
+2026/04/28 18:03:54 [dispatcher] started 4 workers
+2026/04/28 18:03:54 [api] listening on :8080
+2026/04/28 18:03:54 [listener] connected to ws://127.0.0.1:8900
+2026/04/28 18:03:54 [listener] subscribed: id=0 program=DMSM65cnaykxbmPLdaam9QFeJ1CuuEDbMpibNHm45ZbD
+2026/04/28 18:03:54 [main] ready — POST http://localhost:8080/register-webhook to add a webhook
+2026/04/28 18:03:55 [api] registered webhook url=http://127.0.0.1:3000/api/webhook event_type=vote
+2026/04/28 18:05:34 [api] registered webhook url=http://127.0.0.1:3000/api/webhook event_type=transfer
