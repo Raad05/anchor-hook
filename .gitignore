@@ -19,3 +19,6 @@ backend/*.out
 contracts/target/
 contracts/**/*.rs.bk
 contracts/.anchor/
+
+# Local Validator
+.surfpool/
