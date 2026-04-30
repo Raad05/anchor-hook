@@ -1,0 +1,15 @@
+{
+  "name": "anchor-hook-ai-agent",
+  "version": "1.0.0",
+  "description": "LangChain AI Agent Webhook Receiver",
+  "main": "agent.js",
+  "scripts": {
+    "start": "node agent.js"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.1.42",
+    "@langchain/google-genai": "^2.1.29",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  }
+}

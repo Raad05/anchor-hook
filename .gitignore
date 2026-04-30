@@ -22,3 +22,4 @@ contracts/.anchor/
 
 # Local Validator
 .surfpool/
+.env
